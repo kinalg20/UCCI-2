@@ -1,0 +1,54 @@
+.member-form-container h4 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 8px;
+}
+.member-form-container .terms-of-registration {
+  padding: 10px 30px;
+}
+.member-form-container .terms-of-registration ul {
+  padding: 0;
+}
+.member-form-container .terms-of-registration ul ol {
+  padding: 0;
+  margin-bottom: 10px;
+}
+.member-form-container .terms-of-registration h5 {
+  font-size: 22px;
+}
+.member-form-container .non_member_register_form {
+  padding: 10px 30px;
+  margin: 10px 40px 30px;
+  border-radius: 3px;
+  border: 1px solid #d7d1d1;
+}
+.member-form-container .non_member_register_form h5 {
+  font-size: 20px;
+  text-align: center;
+}
+.member-form-container .non_member_register_form .additional_detail {
+  border: 1px solid #d7d1d1;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.member-form-container .non_member_register_form .additional_detail .label-collection {
+  display: grid;
+  grid-template-columns: 25% 20% 20% 20% 20%;
+  text-align: center;
+}
+.member-form-container .non_member_register_form .additional_detail .label-collection .label {
+  border-right: 1px solid #d7d1d1;
+}
+.member-form-container .non_member_register_form .additional_detail .label-collection .label p {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 768px) {
+  .member-form-container {
+    margin: 30px 10px;
+  }
+  .member-form-container .non_member_register_form .additional_detail .label-collection {
+    grid-template-columns: 100%;
+  }
+}/*# sourceMappingURL=non_member_exporter.css.map */

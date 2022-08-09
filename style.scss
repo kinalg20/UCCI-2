@@ -1,0 +1,41 @@
+.register-button {
+    text-align: center;
+}
+
+.form-field {
+    margin-top: 15px;
+
+    .form-control {
+        margin-top: 5px;
+        font-size: 14px;
+        height: fit-content;
+    }
+
+    label {
+        font-size: 13.7px;
+        font-weight: 400;
+    }
+
+    input::placeholder{
+        font-size: 13px;
+    }
+}
+
+
+.member-form-container {
+    box-shadow: #959da533 0 8px 24px;
+    border: 1px solid #d7d1d1;
+    border-radius: 10px;
+    margin: 30px 50px;
+    padding-top: 10px;
+
+    h4 {
+        text-align: center;
+        text-decoration: underline;
+        padding: 8px;
+    }
+
+    span {
+        text-align: center;
+    }
+}
