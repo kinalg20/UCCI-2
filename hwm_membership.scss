@@ -1,0 +1,86 @@
+.hwm {
+    p {
+       text-align: center;
+       font-size: 13.7px;
+    }
+ 
+    ul {
+       padding-left: 0%;
+ 
+       li {
+          list-style: none;
+          padding-left: 0;
+          font-size: 13.7px;
+       }
+    }
+ 
+    .section-1 {
+       border: 1px solid #d7d1d1;
+       border-radius: 3px;
+       padding: 10px 30px;
+       margin: 10px 40px 30px;
+ 
+       h5 {
+          text-align: center;
+          font-size: 20px;
+       }
+ 
+       .button {
+          width: 30px;
+          height: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       }
+ 
+       .file {
+          font-size: 14px;
+          height: 35px;
+       }
+ 
+       .radio-class {
+          margin-left: 20px;
+       }
+ 
+       .form-field {
+          .grid {
+             display: grid;
+             grid-template-columns: 20% 40% 25% 25%;
+ 
+             .grid-1 {
+                margin-left: 5px;
+             }
+ 
+             .grid-2 {
+                display: grid;
+                grid-template-columns: 50% 50%;
+             }
+          }
+       }
+ 
+       tr {
+ 
+          th,
+          td {
+             font-size: 13.7px;
+             text-align: center;
+          }
+       }
+ 
+       .place-input {
+          border-left: hidden;
+          border-right: hidden;
+          border-top: hidden;
+ 
+          &:hover,
+          &:active,
+          &:focus-visible,
+          &:focus {
+             border-left: hidden;
+             border-right: hidden;
+             border-top: hidden;
+             outline: none;
+          }
+       }
+    }
+ }

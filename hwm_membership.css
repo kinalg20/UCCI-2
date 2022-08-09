@@ -1,0 +1,64 @@
+.hwm p {
+  text-align: center;
+  font-size: 13.7px;
+}
+.hwm ul {
+  padding-left: 0%;
+}
+.hwm ul li {
+  list-style: none;
+  padding-left: 0;
+  font-size: 13.7px;
+}
+.hwm .section-1 {
+  border: 1px solid #d7d1d1;
+  border-radius: 3px;
+  padding: 10px 30px;
+  margin: 10px 40px 30px;
+}
+.hwm .section-1 h5 {
+  text-align: center;
+  font-size: 20px;
+}
+.hwm .section-1 .button {
+  width: 30px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hwm .section-1 .file {
+  font-size: 14px;
+  /* height: 35px; */
+  height: fit-content;
+}
+.hwm .section-1 .radio-class {
+  margin-left: 20px;
+}
+.hwm .section-1 .form-field .grid {
+  display: grid;
+  grid-template-columns: 20% 40% 25% 25%;
+}
+.hwm .section-1 .form-field .grid .grid-1 {
+  margin-left: 5px;
+}
+.hwm .section-1 .form-field .grid .grid-2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.hwm .section-1 tr th,
+.hwm .section-1 tr td {
+  font-size: 13.7px;
+  text-align: center;
+}
+.hwm .section-1 .place-input {
+  border-left: hidden;
+  border-right: hidden;
+  border-top: hidden;
+}
+.hwm .section-1 .place-input:hover, .hwm .section-1 .place-input:active, .hwm .section-1 .place-input:focus-visible, .hwm .section-1 .place-input:focus {
+  border-left: hidden;
+  border-right: hidden;
+  border-top: hidden;
+  outline: none;
+}/*# sourceMappingURL=hwm_membership.css.map */
