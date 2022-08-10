@@ -29,8 +29,7 @@
 }
 .hwm .section-1 .file {
   font-size: 14px;
-  /* height: 35px; */
-  height: fit-content;
+  height: 35px;
 }
 .hwm .section-1 .radio-class {
   margin-left: 20px;

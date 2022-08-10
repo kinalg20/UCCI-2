@@ -25,7 +25,7 @@ body {
 }
 
 .custom-bg-lighten-grey-1 {
-    background: #4d4e50 !important
+    background: #005a9d !important
 }
 
 .custom-font-size-1 {
@@ -80,11 +80,11 @@ body {
 
 .custom-svg-btn-style-1.custom-svg-btn-style-1-light .custom-svg-btn-background polygon {
     fill: transparent;
-    stroke: #fff
+    stroke: #d80d07
 }
 
 .custom-svg-btn-style-1.custom-svg-btn-style-1-light:hover .custom-svg-btn-background polygon {
-    fill: #fff
+    fill: #d80d07
 }
 
 .custom-svg-btn-style-1.custom-svg-btn-style-1-light.custom-svg-btn-style-1-light-solid .custom-svg-btn-background {
@@ -238,7 +238,7 @@ body {
     left: 0;
     width: 339px;
     height: 100%;
-    background: #ccc;
+    background: #005a9d;
     opacity: .7;
     z-index: 1
 }
@@ -480,7 +480,7 @@ body {
 #footer strong,
 #footer .footer-copyright p,
 #footer a:not(.btn):not(.no-footer-css) {
-    color: #b5b5b5
+    color: #fff
 }
 
 .custom-list-style-1>li {

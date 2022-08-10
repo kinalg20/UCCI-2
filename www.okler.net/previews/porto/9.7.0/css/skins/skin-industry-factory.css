@@ -71,9 +71,9 @@ html .text-hover-quaternary:hover {
     color: #383f48 !important
 }
 
-html .text-color-dark,
+html .text-color-dark-1,
 html .text-dark {
-    color: #212529 !important
+    color: #005a9d !important
 }
 
 html .text-color-hover-dark:hover,
@@ -85,16 +85,33 @@ html .text-color-light,
 html .text-light {
     color: #fff !important
 }
+html .text-color-light1{
+    color: #d80d07 !important
+}
 
 html .text-color-hover-light:hover,
 html .text-hover-light:hover {
     color: #fff !important
 }
 
+a.apply_btn{
+    color: #d80d07!important;
+}
+a.apply_btn:hover{
+    color: #fff!important;
+}
+
 html .svg-fill-color-primary {
     fill: #d80d07 !important
 }
 
+.text-color-light-2{
+    font-size: 17.5px;
+}
+
+.text-color-light-3{
+    color: #d80d07!important;
+}
 html .svg-fill-color-primary svg path,
 html .svg-fill-color-primary svg rect,
 html .svg-fill-color-primary svg line,
@@ -7471,11 +7488,11 @@ ul.comments .comment-block,
 
 .custom-hero-sub-images-style-1:before,
 .custom-hero-sub-images-style-1:after {
-    background: #c90c07
+    background: #005a9d
 }
 
 .custom-hero-sub-images-style-1 .custom-hero-sub-images-shadow {
-    box-shadow: 0 0 80px 68px #c90c07
+    box-shadow: 0 0 80px 68px #005a9d
 }
 
 .custom-thumb-info-style-1:hover .custom-thumb-info-icon {
