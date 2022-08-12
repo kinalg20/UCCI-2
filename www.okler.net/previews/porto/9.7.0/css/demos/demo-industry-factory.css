@@ -25,7 +25,7 @@ body {
 }
 
 .custom-bg-lighten-grey-1 {
-    background: #052d4b !important
+    background: #05144b !important
 }
 
 .custom-font-size-1 {
@@ -55,7 +55,7 @@ body {
 
 .custom-svg-btn-style-1 .custom-svg-btn-background {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     z-index: 0;
     width: 107%;
@@ -63,7 +63,12 @@ body {
     transform: translate3d(-50%, -50%, 0);
     z-index: -1
 }
-
+.apply {
+    color: #d4d4d4;
+}
+polygon:hover .apply {
+    color: #d80d07;
+}
 .custom-svg-btn-style-1 .custom-svg-btn-background polygon {
     transition: ease all 300ms
 }
@@ -238,7 +243,7 @@ body {
     left: 0;
     width: 339px;
     height: 100%;
-    background: #052d4b;
+    background: #05144b;
     opacity: .7;
     z-index: 1
 }

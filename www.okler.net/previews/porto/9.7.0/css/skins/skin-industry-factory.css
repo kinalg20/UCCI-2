@@ -40,6 +40,10 @@ html .text-color-hover-primary:hover,
 html .text-hover-primary:hover {
     color: #d80d07 !important
 }
+html .text-color-hover-primary:hover .apply
+ {
+    color: #d80d07 !important
+}
 
 html .text-color-secondary,
 html .text-secondary {
@@ -73,7 +77,7 @@ html .text-hover-quaternary:hover {
 
 html .text-color-dark-1,
 html .text-dark {
-    color: #052d4b !important
+    color: #05144b !important
 }
 
 html .text-color-hover-dark:hover,
@@ -4728,19 +4732,19 @@ html[dir=rtl] #header .tip-light:before {
     }
 
     #header .header-nav.header-nav-stripe nav>ul:not(:hover)>li>a.active {
-        background-color: #d80d07
+        background-color: #05144b
     }
 
     #header .header-nav.header-nav-stripe nav>ul:hover>li>a.active {
-        color: #d80d07
+        color: #05144b
     }
 
     #header .header-nav.header-nav-links nav>ul li:hover>a {
-        color: #d80d07
+        color: #05144b
     }
 
     #header .header-nav.header-nav-links nav>ul:not(:hover)>li>a.active {
-        color: #d80d07
+        color: #05144b
     }
 
     #header .header-nav.header-nav-links.header-nav-links-vertical-slide nav ul li.dropdown .dropdown-menu::-webkit-scrollbar-thumb {
@@ -7488,11 +7492,11 @@ ul.comments .comment-block,
 
 .custom-hero-sub-images-style-1:before,
 .custom-hero-sub-images-style-1:after {
-    background: #052d4b
+    background: #05144b
 }
 
 .custom-hero-sub-images-style-1 .custom-hero-sub-images-shadow {
-    box-shadow: 0 0 80px 68px #052d4b
+    box-shadow: 0 0 80px 68px #05144b
 }
 
 .custom-thumb-info-style-1:hover .custom-thumb-info-icon {
