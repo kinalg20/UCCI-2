@@ -1,5 +1,22 @@
 @charset "UTF-8";
-
+/* marketplace */
+.products-add  {
+    justify-content: space-between;
+    align-items: center;
+}
+.products-add  h6{
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+form .be-flisq {
+    width: 45px;
+    background: #f5f5f5;
+    padding: 5px;
+    border: none;
+    height: 38px;
+}
+/* End marketplace */
 .accordion .card {
     margin-top: 5px
 }
